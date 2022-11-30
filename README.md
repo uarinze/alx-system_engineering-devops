@@ -1,1 +1,1 @@
-Moving around in bash
+pwd prints current working environment
