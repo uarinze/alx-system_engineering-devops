@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo apt install mpv
+mpv https//www.amazon.com/Star-Wars-Mark-Hamill/dp/B00VF06OBS 
