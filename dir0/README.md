@@ -1,1 +1,1 @@
-pwd prints current working environment
+This directory will be deleted.
