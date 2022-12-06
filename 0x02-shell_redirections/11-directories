@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -adR1|wc -l 
