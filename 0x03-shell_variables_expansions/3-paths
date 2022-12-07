@@ -1,0 +1,2 @@
+#!/bin/bash
+echo $PATH > tmpFile; cat tmpFile|tr '/' '_'|tr ':' '\n'|wc -w|; rm tmpFile 
