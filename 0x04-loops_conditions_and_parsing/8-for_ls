@@ -6,6 +6,6 @@
 #Do not display hidden files.
 for i in *
 do
-	echo "$i"
+	echo "${i#*-}" #prints i without the characters preceeding "-"; i%-* will print i without the characters after "-"
 done
 
