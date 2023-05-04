@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# Bash script that is not terminated by SIGTERM
+while true
+do 
+	echo "To infinity and beyond"
+	sleep 2
+	trap 'echo "I am invisible"' TERM
+done
