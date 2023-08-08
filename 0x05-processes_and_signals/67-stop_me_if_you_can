@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-# stops a running process from another terminal
-pkill -f 7-highlander
