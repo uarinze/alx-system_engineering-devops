@@ -1,2 +1,3 @@
 #!/usr/bin/env bash
+#Bash script that creates as RSA key pair with the name of provate key "school", number of bits of key: 4096, and passphrase of "betty"
 ssh-keygen -f school -b 4096 -N betty
