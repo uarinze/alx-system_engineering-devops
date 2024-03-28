@@ -1,9 +1,5 @@
-::ssh::client::config::user { 'ubuntu':
-  ensure => present,
-  user_home_dir => '~/',
-  manage_user_ssh_dir => false,
-  options => {
-    'PasswordAuthentication' => 'no',
-    'IdentityFile' => '~/.ssh/school',
-  }
+file {'config':
+  path		=> /~/.ssh/config,
+  ensure	=> present,
+  content	=> "Host *\n\tPasswordAuthentication no\n\tIdentityFile ~/.ssh/school",
 }
